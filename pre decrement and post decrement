@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int x=0;
+    int a=12;
+    x=--a;
+    printf("after pre decrement:\n");
+    printf("value of a=%d and value of b=%d",a,x);
+    int y=0;
+    int c=15;
+    y=c--;
+    printf("\nafter post decrement:\n");
+    printf("value of y=%d and value of c=%d",y,c);
+    
+}
