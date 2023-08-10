@@ -1,0 +1,12 @@
+#include <stdio.h>
+main()
+{
+    int a=11;
+    a++;
+    printf("a++ is % d",a);
+    printf("\n");
+    a--;
+    printf("a-- is %d",a);
+    
+    
+}
