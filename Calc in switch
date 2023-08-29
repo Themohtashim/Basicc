@@ -1,0 +1,23 @@
+#include <stdio.h>
+main()
+{    int a,b,opt;
+    printf("enter first no a=");
+    scanf("%d",&a);
+    printf("enter second no b=");
+    scanf("%d",&b);
+    printf("~~~~~~~~~~~~~~~~\n");
+    printf("select opt\n1-add\n2-sub\n3-mult\n4-div\n~~~~~~~~~~~~~~\nenter opt=");
+    scanf("%d",&opt);
+    switch(opt)
+    {
+    case 1:printf("add=%d \n",a+b);break;
+    case 2:printf("sub=%d\n",a-b);break;
+    case 3:printf("mult=%d\n",a*b);break;
+    case 4:printf("div=%d\n",a/b);break;
+    
+    default:("pls enter valid no.");
+        
+    }
+    
+    
+}
