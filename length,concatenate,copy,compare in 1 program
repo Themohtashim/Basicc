@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+main()
+{
+    char str1[20]="hello";
+    printf("length is %d",strlen(str1));
+    char str2[20]="morning";
+    printf("concatenate is %S",strcat(str1,str2));
+    printf("\n");
+    strcpy(str1,str2);
+    printf("string is %s",str1);
+    printf("\n");
+    if(strcmp(str1,str2)==0)
+    {
+        printf("both string are same");
+    }
+    else
+    {
+        printf("both string are not same");
+    }
+    
+}
