@@ -1,0 +1,8 @@
+#include<stdio.h>
+main()
+{
+        char name [10]= "raju";
+        int i =strlen(name);
+        printf("length is %d",i);
+
+}
