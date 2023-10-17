@@ -1,0 +1,29 @@
+#include<stdio.h>
+void add(int x,int y)
+{
+    printf("addition is %d",x+y);
+}
+void substract(int x,int y)
+{
+    printf("substraction is %d",x-y);
+}
+void multi(int x,int y)
+{
+    printf("multi is %d",x*y);
+}
+void divide(int x,int y)
+{
+    printf("divide is %d",x/y);
+}
+main()
+{
+    int a,b;
+    printf("enter a=");
+    scanf("%d",&a);
+    printf("enter b=");
+    scanf("%d",&b);
+    add(a,b);
+    substract(a,b);
+    divide(a,b);
+    multi(a,b);
+}
